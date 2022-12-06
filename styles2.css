@@ -1,0 +1,45 @@
+body {
+  background-image: url('green.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #9CC2A6;
+  color: black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.button1 {
+  border-radius: 12px;
+  background-color: #4CAF50; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button2 {
+  border-radius: 12px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
+#hover{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 2s;
+  float: left;
+}
+#hover:hover{
+  width: 300px;
+  background-color: rgb(0, 196, 65);
+}
